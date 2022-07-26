@@ -1,0 +1,55 @@
+p{
+    font-size:100%
+}
+.boxmodel{
+    background-color:auto;
+    color:#61342c;
+    width:auto;
+    height:auto;
+    margin:auto;
+    boder:auto;
+    border-width:20px;
+    border-style:ridge;
+    border-style:groove;
+    border-radius:80px;
+    outline-style: solid;
+    outline-color:bisque;
+    border-color:black green orange olive;
+    padding:20px 10px 20px 10px;(top right bottom left)
+}
+.bluebox{
+    width:400px;
+    background-color:blue;
+    color:white;
+    border: 10px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hsl() rgb();
+}
+.redbox{
+    width:600px;
+    background-color: red;
+    border: 5px solid blue;
+    color: black
+    font-family:'Courier New', Courier, monospace;
+}
+.greenbox{
+    width:500px;
+    background-color:green;
+    border: 10px solid yellow;
+    color: black;
+    font-family:'Times New Roman', Times, serif
+}
+.brownbox{
+    width:600px;
+    background-color:brown;
+    border: 12px solid purple;
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.great{
+    width: 400px;
+    height: 100px;
+    color:blue;
+    background-color:#61342c;
+    text-decoration: underline overline;
+}
