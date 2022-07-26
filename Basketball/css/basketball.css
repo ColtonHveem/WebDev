@@ -1,0 +1,83 @@
+body, html {
+    height:100%;
+    margin: 0;
+}
+
+.court{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    margin:0;
+    color: white;
+    background-origin: content-box;
+    height: 100%;
+    width: auto;
+    z-index:2;
+}
+.court::before{
+    content: "";
+    background-image: url(../images/basketballcourt.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.50;
+}
+.hoopers{
+    background-image: url(../images/hoopers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100%;
+    width:auto;
+    z-index:1;
+}
+.hoopers2{
+    background-image: url(../images/hoopers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 40%;
+    width:40%;
+    z-index:1;
+}
+.gametime{
+    background-image: url(../images/gametime.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: auto;
+}
+.hoop{
+    background-image: url(../images/hoop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: auto;
+}
+.ptext{
+    position: relative;
+    opacity:none;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: #000;
+    font-size: 60px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+.ptext2{
+    position: relative;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
