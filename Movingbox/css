@@ -1,0 +1,77 @@
+.box{
+    background-color: #111;
+    border:red;
+    height: 100px;
+    width: 100px;
+    color:#fff;
+    position: relative;
+    animation: slider 5s infinite;
+}
+.box2{
+    background-color: red;
+    border:red;
+    height: 100px;
+    width: 100px;
+    color:#fff;
+    position: relative;
+    animation: slider2 5s infinite;
+}
+
+#slider{
+    overflow: hidden;           
+}
+#slider figure{
+    position: fixed;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float:left;
+    width:20%;
+}
+@keyframes slider{
+    0%{
+        left:0px;
+        top:0px;
+    }
+    25%{
+        left:20px;
+        top:0px;
+    }
+    50%{
+        left:40px;
+        top:0px;
+    }
+    75%{
+        left:40px;
+        top:0px;
+    }
+    100%{
+        left:40px;
+        top:0px;
+    }
+}
+@keyframes slider2{
+    0%{
+        left:40px;
+        top:0px;
+    }
+    25%{
+        left:40px;
+        top:0px;
+    }
+    50%{
+        left:40px;
+        top:0px;
+    }
+    75%{
+        left:60px;
+        top:0px;
+    }
+    100%{
+        left:80px;
+        top:0px;
+    }
+}
